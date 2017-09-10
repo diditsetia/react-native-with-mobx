@@ -1,0 +1,25 @@
+{
+	"name": "mobxpart1",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"mobx": "^3.2.2",
+		"mobx-react": "^4.2.2",
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.43.0"
+	},
+	"devDependencies": {
+		"babel-jest": "21.0.2",
+		"babel-plugin-transform-decorators-legacy": "^1.3.4",
+		"babel-preset-react-native": "3.0.2",
+		"jest": "21.0.2",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
